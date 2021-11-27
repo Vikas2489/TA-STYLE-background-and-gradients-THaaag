@@ -51,7 +51,7 @@ table {
 body {
     background-image: url(../assets/media/pic01.jpeg);
     background-size: cover;
-    
+    background-attachment: fixed;
     color: rgb(92, 22, 22);
     padding: 32px;
     font-size: 32px;
@@ -90,9 +90,9 @@ h1 {
 }
 
 .lastbox {
-    background:  url(../assets/media/pic02.jpeg) no-repeat;
+    background: linear-gradient(
+        to right bottom, rgba(218, 0, 44, 0.5), #3d2727), url(../assets/media/pic02.jpeg) no-repeat;
     height: 700px;
-    width: 1000px;
     line-height: 700px;
     text-align: center;
     width: 100%;
