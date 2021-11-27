@@ -1,0 +1,155 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom styles */
+
+body {
+    background-image: url(../assets/media/pic01.jpeg);
+    background-size: cover;
+    
+    color: rgb(92, 22, 22);
+    padding: 32px;
+    font-size: 32px;
+    font-weight: bold;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* box*/
+
+.box {
+ flex: 0 1 32%;
+    color: black;
+    font-size: 19px;
+    background-color: crimson;
+    line-height: 350px;
+    text-align: center;
+}
+
+.section-1 {
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ margin: 50px 0;
+}
+
+.box-2 {
+    background: linear-gradient(to right, rgb(3, 3, 3, 0.8) 3%, rgb(241, 8, 54) );
+}
+
+.box-3 {
+    background: radial-gradient(crimson 35%, rgb(3, 3, 3, 0.8) );
+}
+
+.lastbox {
+    background:  url(../assets/media/pic02.jpeg) no-repeat;
+    height: 700px;
+    width: 1000px;
+    line-height: 700px;
+    text-align: center;
+    width: 100%;
+    border-radius: 50px;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
