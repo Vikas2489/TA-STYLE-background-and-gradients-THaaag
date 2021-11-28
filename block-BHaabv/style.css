@@ -184,9 +184,11 @@ body {
     width: 100%;
     position: absolute;
     background: linear-gradient(to right,rgb(238,194,133),rgb(199,95,146));
-    height: 4px;
+    height: 5px;
     margin-bottom: 299px;
-    border-radius: 6px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
 }
 
 /* overview today */
