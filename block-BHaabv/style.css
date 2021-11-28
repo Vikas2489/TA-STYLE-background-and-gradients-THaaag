@@ -75,6 +75,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     border-top: 4px solid rgb(28,147,249);
+    border-radius: 10px;
 }
 
 /* header */
@@ -110,6 +111,7 @@ body {
     width: 24%;
     height: 300px;
     padding: 20px;
+    position: relative;
     }
 
 .flex-1 .social-media {
@@ -176,6 +178,15 @@ body {
 
 .flex-1-color {
     border-top: 4px solid rgb(224, 39, 39);
+}
+
+.line {
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(to right,rgb(238,194,133),rgb(199,95,146));
+    height: 4px;
+    margin-bottom: 299px;
+    border-radius: 6px;
 }
 
 /* overview today */
